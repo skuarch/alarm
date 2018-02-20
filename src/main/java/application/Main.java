@@ -45,8 +45,8 @@ public class Main {
                 }
             }
         };
-
-        timer.scheduleAtFixedRate(timerTask, 0, (1000 * 60) * 20);        
+        
+        timer.scheduleAtFixedRate(timerTask, 0, (1000 * 6000) + 20 );        
     }
 
 }
